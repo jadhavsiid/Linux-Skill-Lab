@@ -1,0 +1,14 @@
+# !/bin/bash
+
+<<com
+Write a Shell script program to show various system configuration like current logged user with logged name, current shell, home
+directory, OS type, current path settings, current working directory, currently logged no.of users, memory info like- size of
+hard disk, cache model,etc and file system mounted.
+com
+echo "   "
+echo "logged user:\n"
+who -u 
+echo "   "
+echo "Current Operating directory: "
+whoami
+
